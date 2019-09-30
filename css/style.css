@@ -1,0 +1,132 @@
+/*menu= playfair display regular
+image_caption= ubuntu light
+title=playfair display regular
+========
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+/*=====header start========*/
+header{}
+.main_header{
+	padding: 20px 70px;
+}
+.main_header .logo{
+	width: 20%;
+	float: left;
+}
+.main_header .logo img{
+	/*width: 100%;*/
+}
+.main_header .menu{
+	width: 80%;
+	overflow: hidden;
+
+}
+.main_header .menu nav{}
+.main_header .menu nav ul{
+	float: right;
+	margin-top: 6px;
+}
+.main_header .menu nav ul li{
+	display: inline-block;
+}
+.main_header .menu nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	text-transform: capitalize;
+	padding: 0px 60px;
+
+}
+.main_header .menu nav ul li:last-child a{
+ padding-right: 0px;
+}
+.main_header .menu nav ul li a:hover{}
+/*=====header end========*/
+
+/*=====banner start========*/
+.cover_pic{
+	padding: 20px 70px; 
+}
+.cover_pic img{
+	width: 100%;
+}
+.coverpic_content{}
+.coverpic_content p{}
+.coverpic_content h1{}
+/*=====banner end========*/
+
+/*=====blog start========*/
+
+.blog_row{
+	/*width: 100%;*/
+	padding: 20px 70px; 
+	overflow: hidden;
+}
+.blog_row .blog_left{
+width: 46%;
+float: left;
+}
+.blog_row .blog_left img{
+	width: 100%;
+}
+.blog_row .blog_left h6{}
+.blog_row .blog_left h1{
+	color: #626262;
+}
+.blog_row .blog_left p{}
+.blog_row .blog_right{
+width: 46%;
+float: right;
+}
+.blog_row .blog_right img{
+	width: 100%;
+}
+.blog_row .blog_right h6{}
+.blog_row .blog_right h1{
+	color: #626262;
+}
+.blog_row .blog_right p{}
+/*=====blog end========*/
+
+footer{
+	background-color: #F0F0F0;
+
+}
+.main_footer{
+overflow: hidden;
+padding: 30px 0px;
+}
+.left_footer{
+width: 50%;
+float: left;
+}
+.left_footer ul{}
+.left_footer ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.left_footer ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+}
+
+.right_footer{
+	width: 50%;
+	float: left;
+}
+.right_footer ul{
+	float: right;
+	padding-right: 30px;
+}
+.right_footer ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.right_footer ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+}
